@@ -1,0 +1,22 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoDesktop{
+    display: block;
+}
+.logoMobile
+{
+    display: none;
+}
+@media screen and (max-width : 767px) {
+    .logoDesktop{
+        display: none;
+    }
+    .logoMobile
+    {
+        display: block;
+    }
+}

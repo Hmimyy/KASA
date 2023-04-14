@@ -1,0 +1,14 @@
+.about_main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+           
+
+
+@media screen and (max-width : 767px) {
+    .about_main{
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+

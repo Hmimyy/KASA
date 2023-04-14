@@ -1,0 +1,22 @@
+.barre_navigation{
+  
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    
+}
+.menuItem{
+    text-decoration: none;
+    color: #FF6060;
+}
+.menuItem:hover{
+    text-decoration-line: underline;
+}
+@media screen and (max-width : 767px) {
+    .menuItem{
+        text-transform: uppercase;
+    }
+}
+
+    
