@@ -1,7 +1,7 @@
 import './About.css';
 import Collapse from '../../components/Collapse/Collapse';
-import BannerDesktop from '../../assets/banners/bannièreDesktop.png';
-import BannerMobile from '../../assets/banners/banniereMobile.png';
+import BannerDesktop from '../../assets/banners/bannierDeskAbout.png';
+import BannerMobile from '../../assets/banners/bannierMobAbout.png';
 import Banner from '../../components/Banner/Banner';
 
 
