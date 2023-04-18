@@ -1,8 +1,6 @@
 .Fiche-container{
-    font-family: 'Montserrat';
-    font-style: normal;
+    display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 
 }
 .Fiche-logement{
@@ -22,20 +20,20 @@
 .titre-logement{
 font-weight: 500;
 font-size: 36px;
-line-height: 51px;
 display: flex;
-align-items: flex-end;
 color: #FF6060;
+margin: 0;
+margin-top: 30px;
 }
 .endroit-logement{
-font-size: 18px;
+font-size: 26px;
 color: #FF6060;
+margin-bottom: 20px;
 }
 .description-info__titletags__tags{
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin-top: 10px;
+    gap: 10px;
 }
 .description-info{
     display: flex;
@@ -53,82 +51,103 @@ color: #FF6060;
 }
 .nom-proprietaire{
     color: #FF6060;
-position:absolute;
-right: 10%;
-bottom:90px;
+    position:absolute;
+    right: 90px;
+    bottom: 70px;
     font-size: 18px;
-    margin-right: 10px;
     width: 93px;
 }
 .photo-proprietaire{
-    position: absolute;
-   right: 0px;
-   bottom:80px;
+    right: 0px;
+    bottom: 65px;
     display: flex;
     border-radius: 50%;
     width: 64px;
     height: 64px;
-    object-fit: cover;
     position: absolute;
 }
 .description-info__proprietaire__rate{
     display: flex;
-    margin-top: 20px;
     position:absolute;
     right: 0;
-    bottom: 20px;
+    gap: 15px;
+    bottom: 1px;
 }
 .description-centent{
-    with:100%;
+    width: 100%;
+    gap: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
-.description-centent__description{}
-.description-centent__equipement{}
+.description-centent__description{
+    width: 45%;
+}
+.description-centent__equipement{
+    width: 45%;
+}
 
 @media screen and (max-width : 767px) {
 
-.titre-logement{
-font-size: 18px;
-line-height: 26px;
-}
+ .titre-logement{
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+ }
+ .endroit-logement{
+    font-size: 14px;
+    margin-bottom: 10px;
+ }
 
-.endroit-logement{
-font-size: 14px;
-}
+.description-info__proprietaire{
+    display: flex;
+    flex-direction: row;
 
+    position: none;
+    margin: 16px 20px 16px 20px;
+    height: 33px;
+}
+.description-info__proprietaire__nom-prop{
+   display: flex;
+   align-items: unset;
+   text-align: unset;
+}
 .nom-proprietaire{
-position:relative;
-right: 0%;
-top: 0%;
-left: 280px;
-bottom:0%;
+    color: #FF6060;
+    position:absolute;
+    right: 100px;
+    bottom: 0;
     font-size: 12px;
-    margin: 30px;
-    width: 93px;
+    width: 0px;
 }
 .photo-proprietaire{
-    position: relative;
-   right: 0px;
-   bottom:15px;
+    right: 0px;
+    bottom: 0px;
     display: flex;
-    border-radius:50%;
+    border-radius: 50%;
     width: 32px;
     height: 32px;
-    object-fit: cover;
     position: absolute;
+    text-align: right;
 }
 .description-info__proprietaire__rate{
-    margin-top: 20px;
+    display: flex;
     position:absolute;
+  
     left: 0;
-    bottom: 0px;
+    gap: 15px;
+    bottom: 10px;
+}
+.etoile{
+    width: 13px;
+    height: 13px;
 }
 .description-centent{
-    with:100%;
-    display: flex;
     flex-direction: column;
 }
-.description-centent__description{}
-.description-centent__equipement{}
+.description-centent__description{
+    width: 100%;
+}
+.description-centent__equipement{
+    width: 100%;
+}
 }
