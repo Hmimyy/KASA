@@ -39,15 +39,23 @@
 }
 
 @media screen and (max-width : 767px) {
+    .banner{
+        margin-right: unset;
+        margin-left: unset; 
+    }
     .bannerDesktop{
         display: none;
     }
     .bannerMobile{
         display: block;
+     
+    
     }
     .banner_sombre{
         height: 111px;
         border-radius: 10px;
+       
+    
     }
     .banner > p{
         top: 10%;
