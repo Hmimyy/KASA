@@ -87,7 +87,10 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width : 767px) {
-
+.description-info__titletags__tags{
+    display: flex;
+    flex-wrap: wrap;
+}
  .titre-logement{
         font-size: 18px;
         margin-top: 15px;
@@ -101,7 +104,6 @@ margin-bottom: 20px;
 .description-info__proprietaire{
     display: flex;
     flex-direction: row;
-
     position: none;
     margin: 16px 20px 16px 20px;
     height: 33px;
