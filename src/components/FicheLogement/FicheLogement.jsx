@@ -11,8 +11,7 @@ const FicheLogementDisplay = () => {
     //récuperer le bonne fiche
 
     const { id } = useParams();
-    console.log("-----id params");
-    console.log(id);
+    
     const ficheLogement = DataLogement.find((logement) => logement.id === id);
 
     //Tags

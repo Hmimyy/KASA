@@ -17,7 +17,6 @@ function Carrousel({slides}) {
     const prevImg = () => {
         setCurrent(current === 0 ? length - 1 : current -1); //pour repartir au dernier slide quand on arrive au premier
     };
-    console.log(current);
 
     if (!Array.isArray(slides) || slides.length <= 0) {
         return null;
